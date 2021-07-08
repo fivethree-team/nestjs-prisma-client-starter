@@ -13,7 +13,7 @@ import {
 } from '@nestjs/graphql';
 import { Post } from '../../models/post.model';
 import { PostOrder } from '../../models/inputs/post-order.input';
-import { PostConnection } from 'src/models/pagination/post-connection.model';
+import { PostConnection } from '../../models/pagination/post-connection.model';
 import { findManyCursorConnection } from '@devoxa/prisma-relay-cursor-connection';
 import { PubSub } from 'graphql-subscriptions/';
 import { CreatePostInput } from './dto/createPost.input';

@@ -36,6 +36,7 @@ Starter template for 😻 [NestJS](https://nestjs.com/) and [Prisma](https://www
     - [6. Start NestJS Server](#6-start-nestjs-server)
   - [GraphQL Playground](#graphql-playground)
   - [Rest Api](#rest-api)
+  - [Test](#test)
   - [Docker](#docker)
   - [Schema Development](#schema-development)
   - [NestJS - Api Schema](#nestjs---api-schema)
@@ -164,6 +165,21 @@ Open up the [example GraphQL queries](graphql/auth.graphql) and copy them to the
 ## Rest Api
 
 [RESTful API](http://localhost:3000/api) documentation available with Swagger.
+
+## Test
+
+Run unit tests:
+
+```bash
+npm run test
+```
+
+Run end to end tests:
+
+```bash
+npm run build:e2e
+npm run test:e2e
+```
 
 ## Docker
 
